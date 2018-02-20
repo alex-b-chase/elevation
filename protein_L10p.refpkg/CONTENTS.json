@@ -1,0 +1,53 @@
+{
+    "files": {
+        "phylo_model": "phylo_modelLt3nJ2.json", 
+        "taxonomy": "subtax.csv", 
+        "tree": "treeFmWYaf.tre", 
+        "aln_fasta": "protein_L10p.good.final.aln", 
+        "seq_info": "seqs.csv", 
+        "tree_stats": "RAxML_info.protein_L10p"
+    }, 
+    "rollback": {
+        "files": {
+            "phylo_model": "phylo_modelLt3nJ2.json", 
+            "taxonomy": "subtax.csv", 
+            "tree": "RAxML_bipartitionsBranchLabels.protein_L10p", 
+            "aln_fasta": "protein_L10p.good.final.aln", 
+            "seq_info": "seqs.csv", 
+            "tree_stats": "RAxML_info.protein_L10p"
+        }, 
+        "rollback": null, 
+        "metadata": {
+            "create_date": "2017-11-30 16:54:10", 
+            "format_version": "1.1", 
+            "locus": "protein_L10p"
+        }, 
+        "md5": {
+            "phylo_model": "b4c011b5b56162b3c48c482cc8e0dc45", 
+            "taxonomy": "d7ed8f65b1be328c1bdffe99e9190484", 
+            "tree": "ca365cfccf2ca7046d705840b31a277a", 
+            "aln_fasta": "9238181ae90907d51740298bc9692d02", 
+            "seq_info": "cb61557790761f54237373f5ec37c2ea", 
+            "tree_stats": "4eabc6ba7901812f76b235ca0911192a"
+        }
+    }, 
+    "log": [
+        "Rerooted", 
+        "Stripped refpkg (removed 0 files)", 
+        "Loaded initial files into empty refpkg"
+    ], 
+    "metadata": {
+        "create_date": "2017-11-30 16:54:10", 
+        "format_version": "1.1", 
+        "locus": "protein_L10p"
+    }, 
+    "rollforward": null, 
+    "md5": {
+        "phylo_model": "b4c011b5b56162b3c48c482cc8e0dc45", 
+        "taxonomy": "d7ed8f65b1be328c1bdffe99e9190484", 
+        "tree": "99017a548a7daf62e367d14b40f55238", 
+        "aln_fasta": "9238181ae90907d51740298bc9692d02", 
+        "seq_info": "cb61557790761f54237373f5ec37c2ea", 
+        "tree_stats": "4eabc6ba7901812f76b235ca0911192a"
+    }
+}
